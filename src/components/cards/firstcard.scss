@@ -1,0 +1,48 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 21rem;
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    gap: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    span {
+        color: #3f3f3f;
+        font-weight: 600;
+    }
+    p{
+        color: #999;
+        font-size: 0.9rem;
+    }
+    .buttons {
+        display: flex;
+        gap: 5px;
+        button {
+            background-color: rgb(20, 20, 20);
+            color: #fff;
+            width: 10rem;
+            padding: 2px;
+            cursor: pointer;
+            border-radius: 8px;
+        }
+        #copy {
+            background-color: #fff;
+            color: #3f3f3f;
+            border-radius: 8px;
+            width: 6rem;
+            border: 1px solid #ccc;
+            box-shadow: 0 2px 4px rgba(0, 0, 0.1);
+        }
+    }
+    
+}
+
+.card:nth-child(2) {
+    background-color: rgb(224, 193, 151)
+}
+
+.card:nth-child(3) {
+    background-color: rgb(222, 243, 241)
+}

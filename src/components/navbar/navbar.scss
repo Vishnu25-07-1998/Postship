@@ -1,0 +1,46 @@
+.navbar {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 1.5rem;
+    border-bottom: 1.5px solid rgb(40, 40, 43);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .left {
+        display: flex;
+        gap: 1.5rem;
+        a {
+            color: rgb(53, 57, 53);
+            font-weight: 700;
+        }
+        span {
+            display: flex;
+            justify-content: center;
+            gap: 3px;
+        }
+    }
+    .right {
+        display: flex;
+        gap: 1.5rem;
+        a {
+            color: rgb(53, 57, 53);
+            font-weight: 700;
+        }
+        .search {
+            display: flex;
+            border-bottom: 1px solid #050505;
+            gap: 6px;
+            input[type="text"] {
+                border: none;
+                outline: none;
+                background-color: transparent;
+            }            
+        }
+        span {
+            display: flex;
+            justify-content: center;
+            gap: 6px;
+            align-items: center;
+        }
+    }
+}

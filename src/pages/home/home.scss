@@ -1,0 +1,62 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .first_section {
+        padding: 2rem;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        .cards {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+    }
+    .second-section {
+        padding: 2rem;
+        background-color: rgba(84, 222, 45, 0.1);
+        .options {
+            margin-top: 8px;
+            display: flex;
+            gap: 6px;
+            .option-button {
+                background-color: #FFFFFF;
+                border: none;
+                box-shadow: 0px 2px 4px rgba(0,0,0,0.1);
+                font: inherit;
+                font-size: 12px;
+                cursor: pointer;
+                padding: 5px 10px;
+                border-radius: 5px;
+                transition: background 0.3s;
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                &:hover {
+                    background-color: #ece8ff;
+                }
+                &.active {
+                    background-color: burlywood;
+                    outline: 1.2px solid #5e5fbd;
+                }
+            }
+              
+        }
+        .sub_contents {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+    }
+    .third-section {
+        padding: 2rem;
+        background-color: #FFFDD0;
+        .boxes {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    }
+}

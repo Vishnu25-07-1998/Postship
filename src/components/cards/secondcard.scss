@@ -1,0 +1,27 @@
+.card_sec {
+    width: 12rem;
+    background: #CD853F;
+    padding: 1rem;
+    height: 20rem;
+    margin-top: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgb(0.1, 0.1, 0.5);
+    h5 {
+        color: #fff;
+    }
+    p {
+        font-size: 12px;
+        color: #fff;
+        margin: 1.5rem 0;
+    }
+    button {
+        padding: 0.3rem;
+        background-color: beige;
+        color: rgba(0, 0, 0, 0.8);
+        outline: none;
+        border: none;
+        box-shadow: 0 4px 6px rgb(0.1, 0.1, 0.5);
+        cursor: pointer;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,53 @@
+.thirdbox {
+    margin-top: 1.3rem;
+    background-color: #FFFFFF;
+    width: 20rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0.1);
+    span {
+        font-size: 14px;
+        color: #5a5454;
+    }
+    .textarea {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        p {
+            font-size: 13px;
+            font-weight: 700;
+        }
+        textarea {
+            height: 6rem;
+            resize: none;
+            outline: none;
+            padding: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+    }
+    .buttons {
+        display: flex;
+        gap: 4px;
+        button {
+            background-color: rgb(20, 20, 20);
+            color: #fff;
+            width: 10rem;
+            padding: 2px;
+            cursor: pointer;
+            border-radius: 8px;
+            &:nth-child(1) {
+                background-color: #fff;
+                color: #3f3f3f;
+                border-radius: 8px;
+                width: 6rem;
+                border: 1px solid #ccc;
+                box-shadow: 0 2px 4px rgba(0, 0, 0.1);
+            }
+        }
+    }
+}

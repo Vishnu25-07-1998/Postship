@@ -1,0 +1,35 @@
+.third_card {
+    width: 28rem;
+    background: #FFFFFF;
+    padding: 1rem;
+    height: 20rem;
+    margin-top: 1rem;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgb(0.1, 0.1, 0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    .box {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        background-color: #C4A484;
+        border-radius: 6px;
+        .left {
+            display: flex;
+            flex-direction: column;
+            span:last-child {
+                font-size: 1.5rem;
+                font-weight: 800;
+            }
+        }
+        .right {
+            display: flex;
+            align-items: center;
+        }
+        &:last-child {
+            background-color: #d4af37;
+        }
+    }
+    
+} 
